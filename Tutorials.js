@@ -105,7 +105,7 @@ function logUserName(user) {
     console.log(user);
 }
 
-sendHttpRequest('getUser', logUserName;)
+sendHttpRequest('getUser', logUserName)
 // the logusername function is passed into the senhttprequest function as an argument
 // the sendhttprequest does what it needs and then the last line is to call to the logusername function
 // where it passes the username it grabbed in as an argument and the console.log logs it out
